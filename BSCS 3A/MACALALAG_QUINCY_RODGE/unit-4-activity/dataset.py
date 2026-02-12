@@ -17,21 +17,19 @@ class Dataset:
 
 
 dataset = [
-    {"text": "Limited time offer click now", "label": "SPAM"},
-    {"text": "Meeting at 2 PM with the manager", "label": "HAM"},
-    {
-        "text": "You win! Claim your prize by submitting your bank account",
-        "label": "SPAM",
-    },
-    {"text": "Project discussion tomorrow at 10 AM", "label": "HAM"},
     # Spams
-    {"text": "Exclusive offer just for you", "label": "SPAM"},
-    {"text": "Don't miss this! Claim your prize now", "label": "SPAM"},
-    {"text": "Click here to win prize", "label": "SPAM"},
-    # Not Spams (Hams)
-    {"text": "Meeting at 2 PM with manager", "label": "HAM"},
-    {"text": "Project discussion tomorrow", "label": "HAM"},
-    {"text": "Team meeting schedule confirmed", "label": "HAM"},
+    {"text": "Free money now!!!", "label": "SPAM"},
+    {"text": "Lowest price for your meds", "label": "SPAM"},
+    {"text": "Win a free iPhone today", "label": "SPAM"},
+    {"text": "Get 50% off, limited time!", "label": "SPAM"},
+    {"text": "Click here for prizes!", "label": "SPAM"},
+    # Hams
+    {"text": "Hi mom, how are you?", "label": "HAM"},
+    {"text": "Are we still on for dinner?", "label": "HAM"},
+    {"text": "Let's catch up tomorrow at the office", "label": "HAM"},
+    {"text": "Meeting at 3 PM tomorrow", "label": "HAM"},
+    {"text": "Team meeting in the office", "label": "HAM"},
+    {"text": "Can you send the report?", "label": "HAM"},
 ]
 
 dataset = Dataset(dataset)
